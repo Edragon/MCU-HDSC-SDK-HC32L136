@@ -1,0 +1,125 @@
+Dependencies for Project 'gpio_output', Target 'gpio_output_Release': (DO NOT MODIFY !)
+F (.\startup_hc32l13x.s)(0x5ED7357A)(--cpu Cortex-M0+ --li -g --pd "__MICROLIB SETA 1"-I.\RTE\_gpio_output_Release-IC:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include--pd "__UVISION_VERSION SETA 526"--pd "_RTE_ SETA 1"--pd "ARMCM0P SETA 1"-o .\output\release\startup_hc32l13x.o--depend .\output\release\startup_hc32l13x.d)
+F (..\mcu\common\interrupts_hc32l13x.c)(0x5D131C59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -mlittle-endian -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../mcu/common -I ../source -I ../driver/inc-I./RTE/_gpio_output_Release-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="526" -D_RTE_ -DARMCM0P-o ./output/release/interrupts_hc32l13x.o -MD)
+I (..\driver\inc\ddl.h)(0x5D131F39)
+I (..\mcu\common\base_types.h)(0x5D11C241)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\assert.h)(0x5AB0B854)
+I (..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5ED7357A)
+F (..\mcu\common\system_hc32l13x.c)(0x5ED6424B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -mlittle-endian -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../mcu/common -I ../source -I ../driver/inc-I./RTE/_gpio_output_Release-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="526" -D_RTE_ -DARMCM0P-o ./output/release/system_hc32l13x.o -MD)
+I (..\mcu\common\base_types.h)(0x5D11C241)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\assert.h)(0x5AB0B854)
+I (..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\driver\inc\ddl.h)(0x5D131F39)
+I (..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5ED7357A)
+F (..\source\main.c)(0x5E548ABB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -mlittle-endian -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../mcu/common -I ../source -I ../driver/inc-I./RTE/_gpio_output_Release-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="526" -D_RTE_ -DARMCM0P-o ./output/release/main.o -MD)
+I (..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\driver\inc\ddl.h)(0x5D131F39)
+I (..\mcu\common\base_types.h)(0x5D11C241)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\assert.h)(0x5AB0B854)
+I (..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5ED7357A)
+F (..\driver\src\ddl.c)(0x5D131F4F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -mlittle-endian -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../mcu/common -I ../source -I ../driver/inc-I./RTE/_gpio_output_Release-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="526" -D_RTE_ -DARMCM0P-o ./output/release/ddl.o -MD)
+I (..\driver\inc\ddl.h)(0x5D131F39)
+I (..\mcu\common\base_types.h)(0x5D11C241)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\assert.h)(0x5AB0B854)
+I (..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5ED7357A)
+F (..\driver\src\sysctrl.c)(0x5ECCF921)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -mlittle-endian -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../mcu/common -I ../source -I ../driver/inc-I./RTE/_gpio_output_Release-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="526" -D_RTE_ -DARMCM0P-o ./output/release/sysctrl.o -MD)
+I (..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\driver\inc\ddl.h)(0x5D131F39)
+I (..\mcu\common\base_types.h)(0x5D11C241)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\assert.h)(0x5AB0B854)
+I (..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5ED7357A)
+F (..\driver\src\gpio.c)(0x5D11F199)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -mlittle-endian -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../mcu/common -I ../source -I ../driver/inc-I./RTE/_gpio_output_Release-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/MDKARM_v5/ARM/PACK/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="526" -D_RTE_ -DARMCM0P-o ./output/release/gpio.o -MD)
+I (..\driver\inc\gpio.h)(0x5D11EFDB)
+I (..\driver\inc\ddl.h)(0x5D131F39)
+I (..\mcu\common\base_types.h)(0x5D11C241)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stddef.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\assert.h)(0x5AB0B854)
+I (..\mcu\common\board_stkhc32l13x.h)(0x5E195D07)
+I (..\mcu\common\hc32l13x.h)(0x5D1892E0)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\MDKARM_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EC388)
+I (C:\MDKARM_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5910C784)
+I (..\mcu\common\system_hc32l13x.h)(0x5ED6414F)
+I (..\driver\inc\sysctrl.h)(0x5D130324)
+I (..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
+I (..\source\ddl_device.h)(0x5ED7357A)
+F (..\readme.txt)(0x5D134104)()
